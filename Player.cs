@@ -13,5 +13,7 @@ namespace WorldCup.Api.Dto
 
         public Position Position { get; set; }
         public int SquadNumber { get; set; }
+
+        public Guid TeamId { get; set; }
     }
 }
